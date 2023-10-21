@@ -1,0 +1,55 @@
+.general__crear {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    font-size: 20px;
+}
+.crear__h1{
+    text-align: center;
+}
+.crear {
+    background-color: #033f74;
+    color: white;
+    border-radius: 15px;
+    padding: 20px 40px;
+}
+
+.items {
+    display: flex;
+    flex-direction: column;
+}
+
+.crear__input,
+.crear__input--textarea {
+    margin-top: 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    border: solid 1px grey;
+    border-radius: 4px;
+    font-size: 16px;
+    outline: none;
+
+}
+
+.crear__input {
+    height: 40px;
+}
+.crear__input::placeholder {
+    height: 30px;
+    text-align: center;
+}
+
+.crear__button {
+    background-color: green;
+    color: white;
+    cursor: pointer;
+    width: 70px;
+    margin: 10px 0;
+    padding: 8px;
+    border: none;
+    border-radius: 3px;
+}
+
+.crear__input-date {
+    width: 150px;
+}
